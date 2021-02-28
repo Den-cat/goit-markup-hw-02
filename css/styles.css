@@ -47,7 +47,6 @@ body {
 }
 .mail-link,
 .tel-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -55,7 +54,6 @@ body {
   color: var(--secondary-color);
 }
 .title-benefit {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -64,7 +62,6 @@ body {
   color: var(--main-color);
 }
 .benefits-about {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -72,7 +69,6 @@ body {
   color: var(--secondary-color);
 }
 .title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -91,15 +87,7 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-.logo {
-  font-family: var(--secondary-font);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-}
 .hero-head {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
@@ -123,7 +111,6 @@ body {
   color: var(--header-background-color);
 }
 .our-team-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -132,7 +119,6 @@ body {
   color: var(--main-color);
 }
 .our-team-duty {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -141,7 +127,6 @@ body {
   color: var(--secondary-color);
 }
 .footer-address {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -150,10 +135,37 @@ body {
 }
 .footer-mail-link,
 .footer-tel-link {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-mail-tel);
+}
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--header-background-color);
+  background-color: var(--accent-color);
+}
+
+.pf-project-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.pf-projects {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
